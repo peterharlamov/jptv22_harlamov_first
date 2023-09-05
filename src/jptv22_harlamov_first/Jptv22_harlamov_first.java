@@ -20,6 +20,9 @@ public class Jptv22_harlamov_first {
         String lastname = scanner.nextLine();
         
         System.out.println("Здравствуй! " + firstname + " " + lastname);
+        
+        int num = 9;
+        System.out.println(num);
     }
     
 }
