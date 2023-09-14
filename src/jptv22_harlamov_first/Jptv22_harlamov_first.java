@@ -14,16 +14,17 @@ import java.util.Scanner;
 public class Jptv22_harlamov_first {
 
     public static void main(String[] args) {
-        System.out.println("Hello JPTV22");
-        Scanner scanner = new Scanner(System.in);
-        String firstname = scanner.nextLine();
-        String lastname = scanner.nextLine();
-        
-        System.out.println("Здравствуй! " + firstname + " " + lastname);
-        
-        int num = 9;
-        System.out.println(num);
-        // editing
+//        System.out.println("Hello JPTV22");
+//        Scanner scanner = new Scanner(System.in);
+//        String firstname = scanner.nextLine();
+//        String lastname = scanner.nextLine();
+//        
+//        System.out.println("Здравствуй! " + firstname + " " + lastname);
+//        
+//        int num = 9;
+//        System.out.println(num);
+        app app = new app();
+        app.run();
     }
     
 }
